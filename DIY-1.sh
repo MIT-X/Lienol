@@ -4,9 +4,9 @@
 rm -rf feeds/packages/lang/golang
 git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
 
-git clone https://github.com/WukongMaster/luci-theme-teleofis.git package/luci-theme-teleofis
-git clone https://github.com/WukongMaster/luci-app-filetransfer.git package/luci-app-filetransfer
-git clone https://github.com/WukongMaster/luci-app-poweroffdevice.git package/luci-app-poweroffdevice
+# git clone https://github.com/WukongMaster/luci-theme-teleofis.git package/luci-theme-teleofis
+# git clone https://github.com/WukongMaster/luci-app-filetransfer.git package/luci-app-filetransfer
+# git clone https://github.com/WukongMaster/luci-app-poweroffdevice.git package/luci-app-poweroffdevice
 
 
 echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
