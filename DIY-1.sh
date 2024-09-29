@@ -36,5 +36,4 @@ echo "src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-pa
 # git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 # git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-neobird
 # svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-bypass package/luci-app-bypass
-# git clone https://github.com/fw876/helloworld.git package/ssr
 
