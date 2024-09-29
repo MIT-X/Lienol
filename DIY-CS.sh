@@ -9,8 +9,8 @@ git clone https://github.com/Porcat/luci-app-filetransfer.git package/luci-app-f
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 
 # 2-关机插件
-git clone https://github.com/MIT-X/luci-app-poweroff.git package/luci-app-poweroff
-# git clone https://github.com/WukongMaster/luci-app-poweroffdevice.git package/luci-app-poweroffdevice
+# git clone https://github.com/MIT-X/luci-app-poweroff.git package/luci-app-poweroff
+git clone https://github.com/WukongMaster/luci-app-poweroffdevice.git package/luci-app-poweroffdevice
 
 # 3-系统主题
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
