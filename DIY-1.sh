@@ -4,23 +4,27 @@
 rm -rf feeds/packages/lang/golang
 git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
 
-# git clone https://github.com/WukongMaster/luci-theme-teleofis.git package/luci-theme-teleofis
+
+git clone https://github.com/WukongMaster/luci-theme-teleofis.git package/luci-theme-teleofis
+git clone https://github.com/Porcat/luci-app-filetransfer.git package/luci-app-filetransfer
+git clone https://github.com/MIT-X/luci-app-poweroff.git package/luci-app-poweroff
+
 # git clone https://github.com/WukongMaster/luci-app-filetransfer.git package/luci-app-filetransfer
 # git clone https://github.com/WukongMaster/luci-app-poweroffdevice.git package/luci-app-poweroffdevice
 
 
-echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
-echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
+# echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
+# echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 
 
 
 # 1-添加 ShadowSocksR Plus+ 插件
-# echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 
 # 6-添加 PassWall 插件
 # echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall.git;main" >> "feeds.conf.default"
-# echo "src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git;main" >> "feeds.conf.default"
-# echo "src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git;main" >> "feeds.conf.default"
+echo "src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git;main" >> "feeds.conf.default"
+echo "src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git;main" >> "feeds.conf.default"
 
 
 # 1-添加插件仓库
