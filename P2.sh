@@ -1,3 +1,6 @@
+rm -rf feeds/packages/lang/golang
+git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
+
 # 1-设置默认主题
 sed -i 's/bootstrap/opentomcat/g' ./feeds/luci/collections/luci/Makefile
 
